@@ -15,7 +15,7 @@ class Pemesanan {
     public void cetakNota() {
         // Do your magic here
         int totalHarga = tiket.getHarga(tahap) * jumlah;
-        System.out.println("=== Nota Pemesanan ===");
+        System.out.println("\n--- Nota Pemesanan ---");
         System.out.println("Nama: " + nama);
         System.out.println("Tahap Pembelian: " + tahap);
         System.out.println("Jenis Tiket: " + tiket.jenis);
